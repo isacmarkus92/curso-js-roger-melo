@@ -196,7 +196,12 @@ const allEpisodes = `O nº de episódios é: ${episodes}`;
 */
 
 let nome = "walter white";
-let newName = nome[0].toUpperCase;
+let newName =
+  nome[0].toUpperCase() +
+  nome.slice(0, 6) +
+  " " +
+  nome[7].toUpperCase() +
+  nome.slice(8);
 console.log(newName);
 
 /*
@@ -208,5 +213,5 @@ console.log(newName);
 - Não modifique a string da const "name";
 - Exiba a "newName" no console;
 */
-// newName = `${newName.replaceAll("w", "W")}`;
-// console.log(newName);
+newName = `${nome[0].toLocaleUpperCase} ${nome.slice(0, 6)} ${nome[7].toLocaleUpperCase()} ${nome.slice(8)}`;
+console.log(newName);
