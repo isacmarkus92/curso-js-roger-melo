@@ -71,6 +71,7 @@ const mdn = mozilla[0] + mozilla[8] + mozilla[18];
 
 let randomWord = "Araponga";
 // console.log(randomWord.slice(-1));
+// console.log(randomWord[randomWord.length - 1]);
 /*
 09 - Comente o console.log acima, e,
 
@@ -191,11 +192,10 @@ const allEpisodes = `O nº de episódios é: ${episodes}`;
 - Não digite a nova string manualmente.
 - Não modifique a string da const "name";
 - Exiba a "newName" no console;
-- 🧐 name não pode ser utilizada já que é uma palavra reservada seu burro
 */
 
-const name1 = "walter white";
-let newName = name1;
+// const name = "walter white";
+// let newName = `${name}`;
 // console.log(newName.replaceAll("w", "W"));
 
 /*
@@ -207,5 +207,5 @@ let newName = name1;
 - Não modifique a string da const "name";
 - Exiba a "newName" no console;
 */
-newName = `${newName.replaceAll("w", "W")}`;
-console.log(newName);
+// newName = `${newName.replaceAll("w", "W")}`;
+// console.log(newName);
