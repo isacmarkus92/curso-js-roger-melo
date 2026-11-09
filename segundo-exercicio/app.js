@@ -195,9 +195,9 @@ const allEpisodes = `O nº de episódios é: ${episodes}`;
 - Exiba a "newName" no console;
 */
 
-// const name = "walter white";
-// let newName = `${name}`;
-// console.log(newName.replaceAll("w", "W"));
+let nome = "walter white";
+let newName = nome[0].toUpperCase;
+console.log(newName);
 
 /*
 22 - Comente o console.log acima, e,
