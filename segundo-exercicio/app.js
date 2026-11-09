@@ -122,8 +122,9 @@ const harryPotterAuthor = "J.K. Rowling";
 */
 
 const bestMovie = 'E o Oscar de melhor filme vai para: "La la land"!';
-const realBestMovie = bestMovie.replaceAll(bestMovie, "Moonlight");
-// console.log(realBestMovie);
+// const realBestMovie = bestMovie.replaceAll(bestMovie, "Moonlight");
+const realBestMovie2 = bestMovie.replace("La la land", "Moonligth");
+console.log(realBestMovie2);
 
 /*
 15 - Comente o console.log acima, e,
